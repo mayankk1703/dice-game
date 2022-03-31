@@ -1,8 +1,8 @@
 var randomno=Math.floor(Math.random()*6)+1;
-var imgname="images/dice"+randomno+".png";
+var imgname="dice"+randomno+".png";
 document.querySelectorAll("img")[0].setAttribute("src",imgname);
 var random2=Math.floor(Math.random()*6)+1;
-var img2="images/dice"+random2+".png";
+var img2="dice"+random2+".png";
 document.querySelectorAll("img")[1].setAttribute("src",img2);
 if(randomno==random2)
 {
